@@ -89,10 +89,10 @@ button.butt{
 button.deny, button.deactive{
   margin-left: 24px;
 }
-button.sub, button.send{ 
+button.sub, button.send{
 margin-left: 15px;
 }
-
+  
 button:hover{
   background:linear-gradient(to bottom, #eaff4c 0%,#f2af32 100%);
     border: 1px solid #f5c877;
