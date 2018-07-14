@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weekly WebDev Challenge - no 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+
+  <div class="logo">
+    <img src="img/logo.png" />
+  </div>
+  <main id="container">
+
+
+
+    <section id="side1">
+<div class="form_main">
+      <h1>Register Form</h1>
+      <div class="form_container">
+        <form>
+          <input placeholder="Username" />
+          <input placeholder="Password" type="password" />
+          <input placeholder="Confirm Password" type="password" />
+          <input placeholder="Email" class="email" />
+          <select name="Location">
+                <option disabled selected>Your location</option>
+	              	<option>Europe</option>
+		               <option>Asia</option>
+                   <option>North America</option>
+                   <option>South America</option>
+                   <option>Africa</option>
+                   <option>Australia & Oceania</option>
+            	</select>
+          <input type="checkbox" id="creg" name="cc" class="check" />
+          <label for="creg"><span></span>I have read and accept the term of use.</label>
+
+          <button>Sign Up</button>
+        </form>
+      </div>
+      </div>
+
+    <div class="form_main">
+      <h1>Send Email</h1>
+      <div class="form_container">
+        <form>
+          <input placeholder="Your Name" />
+          <input placeholder="Your Email" class="email" />
+          <textarea id="ta" placeholder="Type your message..."></textarea>
+
+          <input type="checkbox" id="cmail" name="cc1" />
+          <label for="cmail"><span></span>Send a copy to my email.</label>
+          <button class="email">Send Email</button>
+        </form>
+      </div>
+      </div>
+
+    </section>
+
+    <section id="side2">
+
+      <div class="form_main">
+        <h1>Sign In Form</h1>
+        <div class="form_container">
+          <form>
+            <input placeholder="Username" />
+            <input placeholder="Password" type="password" />
+
+            <input type="checkbox" id="csign" name="Sign In" />
+            <label for="csign"><span></span>Remember me.</label>
+            <button class="butt sign">Sign In</button>
+          </form>
+        </div>
+
+
+        <div class="form_main">
+          <h1>Recover Form</h1>
+          <div class="form_container">
+            <form>
+
+              <input placeholder="Enter Your Email" class="email" />
+              <input type="number" placeholder="Enter Your Number" />
+
+              <button class="butt send">Send</button>
+              <button class="butt deactive" disabled>Done</button>
+            </form>
+          </div>
+          </div>
+
+          <div class="form_main">
+            <h1>Subscribe Form</h1>
+            <div class="form_container">
+              <form>
+                <input placeholder="Enter Your Email" class="email" />
+                <button class="butt sub">Subscribe</button>
+                <button class="butt deny">No, thanks</button>
+              </form>
+            </div>
+            </div>
+
+          <img class="foot" src="img/logo-foot.png" />
+    </section>
+  </main>
+
+</body>
+
+</html>
