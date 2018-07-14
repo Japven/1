@@ -287,5 +287,9 @@ form input:last-child{
     flex-direction: column;
 
   }
-
+  body{
+    background-image: url(img/background.png);
+    background-size: 50% 50%;
+    background-attachment: fixed;
+  }
 }
